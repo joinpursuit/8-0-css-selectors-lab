@@ -91,5 +91,5 @@ a {
 }
 
 .languages-list {
-	list-style: url(./assets/globe.png);
+	list-style-image: url(./assets/globe.png);
 }

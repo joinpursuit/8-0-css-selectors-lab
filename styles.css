@@ -2,7 +2,6 @@
 
 /* Do not change any CSS below this line. */
 h1 {
-  color: blue;
   font-size: 30px;
 }
 
@@ -31,8 +30,13 @@ img {
   margin-right: auto;
 }
 
+.profile-photo {
+  border: 1px solid blue;
+}
+
 body {
   font-family: sans-serif;
+  text-align: center;
 }
 
 h3 {
@@ -41,20 +45,36 @@ h3 {
 
 html {
   background-color: rgb(159, 193, 201);
-  background: radial-gradient(
-    circle,
-    rgba(159, 193, 201, 1) 9%,
-    rgba(224, 209, 221, 1) 52%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: radial-gradient(circle, rgba(159, 193, 201, 1) 9%, rgba(224, 209, 221, 1) 52%, rgba(0, 212, 255, 1) 100%);
 }
 
 p {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: Helvetica, sans-serif;
 }
 
 h2,
 h3 {
   font-size: 20px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, serif;
+  font-weight: 700;
+  text-decoration: underline solid blue;
+}
+
+h2.skills-header {
+  color: rebeccapurple;
+}
+
+a {
+  color: red;
+}
+
+.languages-list {
+  list-style-image: url(./assets/globe.png);
 }

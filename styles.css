@@ -6,8 +6,19 @@ h1 {
   font-size: 30px;
 }
 
-ul {
+h1,h2,h3,h4,h5,h6 {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  text-decoration: underline solid blue;
+}
+
+.skills-header{
+  color:rebeccapurple;
+}
+
+ul.languages-list{
   list-style-type: none;
+  list-style-image: url(./assets/globe.png);
 }
 
 ol {
@@ -23,16 +34,18 @@ li {
   padding-left: 30px;
 }
 
-img {
+img.profile-photo{
   width: auto;
   height: 200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: 1px solid blue
 }
 
 body {
   font-family: sans-serif;
+  text-align: center;
 }
 
 h3 {
@@ -52,9 +65,14 @@ html {
 p {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: Helvetica, sans-serif;
 }
 
 h2,
 h3 {
   font-size: 20px;
+}
+
+a{
+  color: red;
 }

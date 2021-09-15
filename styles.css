@@ -10,6 +10,10 @@ ul {
   list-style-type: none;
 }
 
+.languages-list{
+  list-style-image: url(./assets/globe.png);
+}
+
 ol {
   font-weight: bold;
 }
@@ -29,9 +33,11 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: 1px solid blue
 }
 
 body {
+  text-align: center;
   font-family: sans-serif;
 }
 
@@ -50,11 +56,25 @@ html {
 }
 
 p {
+  font-family: Helvetica, sans-serif;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+h2.skills-header{
+  color:rgb(102, 51, 153)
 }
 
 h2,
 h3 {
   font-size: 20px;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: Georgia, serif;
+  font-weight: bold;
+  text-decoration: underline solid blue;
+}
+
+a{
+  color: rgb(255, 0, 0);
 }

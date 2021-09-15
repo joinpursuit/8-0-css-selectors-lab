@@ -7,10 +7,28 @@ h1,
 h2,
 h3 {
   font-family: Georgia, serif;
+  font: bold;
+  text-decoration: underline solid blue;
 }
 
 body {
   text-align: center;
+}
+
+.profile-photo {
+  border: 1px solid blue;
+}
+
+.skills-header {
+  color: rebeccapurple;
+}
+
+a {
+  color: red;
+}
+
+.languages-list {
+  list-style-image: url("./assets/globe.png");
 }
 
 /* Do not change any CSS below this line. */

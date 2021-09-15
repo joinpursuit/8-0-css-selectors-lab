@@ -1,7 +1,6 @@
 /* Write your CSS below. */
-
-p {
-  font-family: Helvetica, sans-serif;
+body {
+  text-align: center;
 }
 
 h1,
@@ -12,25 +11,101 @@ h3 {
   text-decoration: underline solid blue;
 }
 
-.profile-photo {
-  border: 1px solid blue;
+/* additional styling - h1 */
+h1 {
+  background-image: url('https://static.vecteezy.com/system/resources/thumbnails/002/072/427/small/marble-effect-inkscape-background-in-lilac-free-vector.jpg');
+  border: 4px double rebeccapurple;
+  padding: 10px;
+  margin-top: 0;
 }
 
-body {
-  text-align: center;
+/* additional styling - h3 */
+div h3 {
+  float: right;
+  padding-right: 50px;
+}
+
+p {
+  font-family: Helvetica, sans-serif;
+}
+
+.profile-photo {
+  border: 1px solid blue;
 }
 
 .skills-header {
   color: rebeccapurple;
 }
 
-a {
-  color: red;
-}
-
 .languages-list {
   list-style-image: url(/assets/globe.png);
+  /* additional styling - below */
+  list-style-position: inside;
+  text-transform: lowercase;
+  border: 4px dashed violet;
+  border-radius: 10px;
+  padding-left: 0;
 }
+
+/* additional styling - .languages-list li */
+.languages-list li {
+  text-align: left;
+}
+
+a {
+  color: red;
+  /* additional styling - below*/
+  text-decoration: underline wavy rebeccapurple;
+}
+
+/* START additional styling*/
+a:hover {
+  color: rebeccapurple;
+  text-decoration: underline wavy violet;
+}
+
+div h2 {
+  color: violet;
+  margin-top: 50px;
+}
+
+div p {
+  color: mediumslateblue;
+  font-size: 24px;
+}
+
+li {
+  text-decoration: underline wavy violet;
+  padding: 10px;
+  margin: 10px;
+}
+
+ol {
+  border: 4px dotted violet;
+  border-radius: 10px;
+  padding-left: 0;
+}
+
+ol li {
+  list-style-type: none;
+  text-align: left;
+}
+
+form {
+  border: 4px double rebeccapurple;
+  background-image: url('https://static.vecteezy.com/system/resources/thumbnails/002/072/427/small/marble-effect-inkscape-background-in-lilac-free-vector.jpg');
+}
+
+form input {
+  width: 200px;
+  color: violet;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid violet;
+}
+
+/* END additional styling */
 
 
 /* Do not change any CSS below this line. */

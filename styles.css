@@ -23,16 +23,18 @@ li {
   padding-left: 30px;
 }
 
-img {
+img.profile-photo {
   width: auto;
   height: 200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: 1px solid rgb(0, 0, 255);
 }
 
 body {
   font-family: sans-serif;
+  text-align: center;
 }
 
 h3 {
@@ -41,20 +43,38 @@ h3 {
 
 html {
   background-color: rgb(159, 193, 201);
-  background: radial-gradient(
-    circle,
-    rgba(159, 193, 201, 1) 9%,
-    rgba(224, 209, 221, 1) 52%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: radial-gradient(circle, rgba(159, 193, 201, 1) 9%, rgba(224, 209, 221, 1) 52%, rgba(0, 212, 255, 1) 100%);
 }
 
 p {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: Helvetica, sans-serif;
 }
 
 h2,
 h3 {
   font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, serif;
+  text-decoration: underline solid rgb(0, 0, 255);
+}
+
+h2.skills-header {
+  color: rgb(102, 51, 153);
+}
+
+a {
+  color: rgb(255, 0, 0);
+}
+
+.languages-list {
+  list-style: url(assets/globe.png);
 }

@@ -82,5 +82,5 @@ h6 {
   text-decoration: underline solid rgb(0, 0, 255);
 }
 .languages-list {
-  list-style-image: url(globe.png)
+  list-style-image: url(../assets/globe.png)
 }

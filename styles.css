@@ -89,3 +89,25 @@ a {
 .languages-list {
   list-style-image: url("assets/globe.png");
 }
+
+.libExtras {
+  list-style-type: lower-greek;
+  width: 140px;
+  display: inline-block;
+}
+
+.react {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.sql {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.node {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.boot {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}

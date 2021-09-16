@@ -31,8 +31,13 @@ img {
   margin-right: auto;
 }
 
+img.profile-photo {
+  border: 1px solid rgb(0, 0, 255);
+}
+
 body {
   font-family: sans-serif;
+  text-align: center;
 }
 
 h3 {
@@ -52,9 +57,87 @@ html {
 p {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: Helvetica, sans-serif;
 }
 
 h2,
 h3 {
   font-size: 20px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, serif;
+  font-weight: 700;
+  text-decoration: underline solid rgb(0, 0, 255);
+}
+
+h2.skills-header {
+  color: rebeccapurple
+}
+
+
+a {
+  color: red
+}
+
+
+ul.languages-list {
+  list-style-image: url(./assets/globe.png);
+}
+
+
+li.white-text {
+  color: white;
+}
+
+li.black-text {
+  color: black
+}
+
+li.red-text {
+  color: red
+}
+
+li.green-text {
+  color: green;
+}
+
+h2.white-words {
+  color: white;
+  background-color: green;
+}
+
+infl {
+  color: brown;
+
+}
+
+t1 {
+  color: #9400D3;
+}
+
+o1{
+  color: #4B0082;
+}
+
+t2{
+  color: #0000FF;
+}
+
+a1{
+  color: #00FF00;
+}
+
+l1{
+  color: #FFFF00;
+}
+
+l2{
+  color: #FF7F00;
+}
+
+y1{
+  color: #FF0000;
 }

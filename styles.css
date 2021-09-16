@@ -36,6 +36,42 @@ a {
   list-style-image: url('assets/globe.png');
 }
 
+/* 
+  The code below are the 10 additional declaration
+ */
+
+/* rotate photo 20 degrees & make a round border*/
+.profile-photo {
+  transform: rotate(20deg);
+  border-radius: 50%;
+}
+
+/* makes a solid blue border */
+html {
+  border: 50px solid rgb(0, 0, 255)
+}
+
+/* makes a rainbow background */
+body {
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  animation: rainbow 15s linear infinite;
+}
+
+@keyframes rainbow {
+  to {background-position: 300vh}
+}
+
+/* changed various text properties */
+p {
+  font-weight: bold;
+  font-size: x-large;
+  color: rgb(0, 238, 255);
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color:rgb(184, 154, 172);
+  letter-spacing: 4px;
+}
+
 /* Do not change any CSS below this line. */
 h1 {
   color: blue;

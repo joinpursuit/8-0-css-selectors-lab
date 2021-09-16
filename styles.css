@@ -1,5 +1,46 @@
 /* Write your CSS below. */
+h1, h2, h3 {
+  font-family: Georgia, serif;
+  text-decoration: underline blue;
+  font-weight: bold;
+}
 
+p {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  text-align: center;
+}
+
+.profile-photo {
+  border: 1px solid blue;
+}
+
+.skills-header {
+  color: rebeccapurple
+}
+
+a {
+  color: red;
+}
+
+.languages-list {
+  list-style-image: url('globe.png')
+}
+
+li {
+  font-size: 50px
+}
+
+.intro {
+  background-color: fuchsia;
+}
+
+.hardest-bug {
+  border: 20px dotted #660066;
+  border-radius: 25px; 
+}
 /* Do not change any CSS below this line. */
 h1 {
   color: blue;

@@ -1,4 +1,112 @@
 /* Write your CSS below. */
+p {
+  font-family: Helvetica, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  text-decoration: underline solid blue;
+}
+
+body {
+  text-align: center;
+}
+
+.profile-photo {
+  border: 1px solid blue;
+}
+
+.skills-header {
+  color: rebeccapurple;
+}
+
+a {
+  color: red;
+}
+
+.languages-list {
+  list-style-image: url("assets/globe.png");
+}
+
+.boxed-libraries {
+  border: 5px dotted magenta;
+}
+
+ol li:hover {
+  color: green;
+}
+
+.intro {
+  color: magenta;
+}
+
+.bug-title {
+  text-transform: uppercase;
+}
+
+.bug-paragraph {
+  color: magenta;
+}
+
+/* Do not change any CSS below this line. */
+h1 {
+  color: blue;
+  font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ol {
+  font-weight: bold;
+}
+
+li {
+  text-align: center;
+  border: 1px solid red;
+  border-radius: 10px;
+  color: blue;
+  background-color: lightpink;
+  padding-left: 30px;
+}
+
+img {
+  width: auto;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h3 {
+  text-decoration-line: underline;
+}
+
+html {
+  background-color: rgb(159, 193, 201);
+  background: radial-gradient(
+    circle,
+    rgba(159, 193, 201, 1) 9%,
+    rgba(224, 209, 221, 1) 52%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h2,
+h3 {
+  font-size: 20px;
+}
 
 /* Do not change any CSS below this line. */
 h1 {

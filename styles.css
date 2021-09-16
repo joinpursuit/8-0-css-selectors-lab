@@ -19,26 +19,46 @@ li {
   border: 1px solid red;
   border-radius: 10px;
   color: blue;
-  background-color: lightpink;
+  background: linear-gradient(rgb(194, 192, 41),rgb(97, 132, 173));
   padding-left: 30px;
 }
-
-/* .profile-photo {
-  border: 1px solid blue
-} */
 
 img {
   width: auto;
   height: 200px;
-  display: block;
+  display:block;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid blue
 }
 
 body {
   text-align: center;
   font-family: sans-serif;
+  background-color: rgb(30, 88, 105);
+  animation-name: color;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes color {
+  0% {
+    background-color:rgb(44, 20, 182);
+  }
+  20% {
+    background-color: #1679ca;
+  }
+  40% {
+    background-color: rgb(22, 226, 165);
+  }
+  60% {
+    background-color: rgb(22, 226, 56);
+  }
+  80% {
+    background-color: rgb(228, 231, 28);
+  }
+  100% {
+    background-color: rgb(226, 144, 22);
+  }
 }
 
 h3 {
@@ -66,20 +86,75 @@ h3 {
   font-size: 20px;
 }
 
-.skills-header {
-  color: rebeccapurple;
+a {
+  color: red;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Georgia, serif;
   font-weight: bold;
   text-decoration: underline solid blue;
+  background: linear-gradient(rgb(67, 83, 175),pink);
 }
 
-a {
-  color: red;
+.profile-photo {
+  border: 1px solid blue;
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+  }
+ 
+  .profile-photo:hover {
+    opacity: 0.6;
+  }
+
+
+.skills-header {
+  color: rebeccapurple;
 }
 
 .languages-list {
   list-style-image: url("assets/globe.png");
 }
+
+.submitBackdrop
+    {
+      width: 400px;
+      height: 200px;
+      margin-left: auto;
+      margin-right: auto;
+      background: url(https://media2.giphy.com/media/4a7sWil1NZoRWymHJp/giphy.gif?cid=ecf05e47hl4nywaj7c3y5lzj0cnj3w8diqjvc9evtih3az5o&rid=giphy.gif&ct=g) no-repeat;
+    }
+    .submitBackdrop:hover {
+      width: 400px;
+      height: 200px;
+      margin-left: auto;
+      margin-right: auto;
+      background: url(https://media3.giphy.com/media/5SxdtXRaHYoG0QFa7P/giphy.gif?cid=ecf05e47hl4nywaj7c3y5lzj0cnj3w8diqjvc9evtih3az5o&rid=giphy.gif&ct=g) repeat;
+    }
+
+input[type="text"] {
+      width: 200px;
+      border: thick double #0b0e04;
+  }   
+
+  .glow {
+    font-size: 60px;
+    color: whitesmoke;
+    text-align: center;
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00c4e6, 0 0 40px #2300e6, 0 0 50px #005ce6, 0 0 60px #00e626, 0 0 70px #00e626;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #7c4dff, 0 0 40px #ff594d, 0 0 50px #ff714d, 0 0 60px #ff4d56, 0 0 70px #ff4d6b, 0 0 80px hsl(357, 100%, 65%);
+    }
+  }   
+
+  

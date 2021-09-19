@@ -1,5 +1,68 @@
 /* Write your CSS below. */
 
+p {
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+font-family: Georgia, serif;
+font-weight: 700;
+text-decoration: underline solid rgb(0, 0, 255)
+}
+h2 {
+  font-family: Georgia, serif;
+  font-weight: 700;
+  text-decoration: underline solid rgb(0, 0, 255);
+
+  }
+  h3 {
+    font-family: Georgia, serif;
+    font-weight: 700;
+    text-decoration: underline solid rgb(0, 0, 255)
+    }
+    h4 {
+      font-family: Georgia, serif;
+      font-weight: 700;
+      text-decoration: underline solid rgb(0, 0, 255)
+      }
+      h5 {
+        font-family: Georgia, serif;
+        font-weight:700;
+        text-decoration: underline solid rgb(0, 0, 255)
+        }
+        h6 {
+          font-family: Georgia, serif;
+          font-weight: 700;
+          text-decoration: underline solid rgb(0, 0, 255)
+          }
+body {
+  text-align: center;
+} 
+.profile-photo {
+border: 1px solid blue;
+}
+
+.skills-header {
+  color:rebeccapurple;
+}
+
+a {
+color: rgb(255, 0, 0);
+}
+
+.languages-list {
+  list-style-image: url("./assets/globe.png");
+}
+
+.Hardest-Bug {
+  background-image: url("https://agronomaster.com/wp-content/uploads/2017/05/Insectos-Beneficiosos-Y-Perjudiciales-Para-Los-Cultivos-5.png");
+  padding: 180px;
+  margin: 10px;
+  color: white;
+
+}
+
+
 /* Do not change any CSS below this line. */
 h1 {
   color: blue;

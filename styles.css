@@ -33,6 +33,7 @@ img {
 
 body {
   font-family: sans-serif;
+  text-align: center;
 }
 
 h3 {
@@ -52,9 +53,9 @@ html {
 p {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: sans-serif;
 }
 
-h2,
-h3 {
-  font-size: 20px;
+.h {
+  font-family: Georgia, Serif;
 }

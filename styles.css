@@ -25,7 +25,13 @@ body {
   color: rebeccapurple;
 }
 
+a {
+  color: red;
+}
 
+.languages-list {
+  list-style-image: url(./assets/globe.png); 
+}
 
 
 

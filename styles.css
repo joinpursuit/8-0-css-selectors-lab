@@ -33,8 +33,18 @@ a {
   list-style-image: url(./assets/globe.png); 
 }
 
+.libraries-list {
+  font-size: 20px;
+}
 
+.info-section {
+  font-size: 20px;
+}
 
+.hardest-bug {
+  color: red;
+  font-size: 20px;
+}
 
 
 /* Do not change any CSS below this line. */

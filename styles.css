@@ -1,5 +1,61 @@
 /* Write your CSS below. */
 
+/* Required to pass tests */
+
+p {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  text-align: center;
+}
+
+img.profile-photo {
+  border: 1px solid rgb(0, 0, 255);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  text-decoration: underline solid rgb(0, 0, 255);
+  font-family: Georgia, serif;
+}
+
+.skills-header {
+  color: rebeccapurple;
+}
+
+a {
+  color: red;
+}
+
+.languages-list {
+  list-style-image: url(./assets/globe.png);
+}
+
+/* Additional styling */
+
+li {
+  font-size: 20px;
+}
+
+.library-list {
+  text-decoration: line-through;
+}
+
+.intro-paragraph {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.hardest-bug {
+  color: green;
+}
+
 /* Do not change any CSS below this line. */
 h1 {
   color: blue;

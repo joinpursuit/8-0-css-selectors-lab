@@ -1,4 +1,49 @@
 /* Write your CSS below. */
+p {
+  font-family: Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, serif;
+  text-decoration: underline solid blue;
+}
+
+h2.skills-header {
+  color: rgb(102, 51, 153);
+}
+
+body {
+  text-align: center;
+}
+
+img.profile-photo {
+  border: 1px solid blue;
+}
+
+a {
+  color: red;
+}
+
+ul.languages-list {
+  list-style-image: url(assets/globe.png);
+}
+
+p.intro {
+  font-size: x-large;
+}
+
+ol.library-list {
+  background-color: aquamarine;
+}
+
+h2.bugs {
+  font-style: oblique;
+}
 
 /* Do not change any CSS below this line. */
 h1 {

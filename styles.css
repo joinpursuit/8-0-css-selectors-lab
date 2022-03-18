@@ -33,6 +33,7 @@ img {
 
 body {
   font-family: sans-serif;
+  text-align: center;
 }
 
 h3 {
@@ -52,9 +53,32 @@ html {
 p {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: Helvetica, sans-serif;
 }
 
 h2,
 h3 {
   font-size: 20px;
+}
+h1,
+h2,
+h3 {
+  font-family: Georgia, serif;
+  font-weight: 700;
+  text-decoration: underline solid rgb(0, 0, 255);
+}
+a {
+  color: rgb(255, 0, 0);
+}
+.profile-photo {
+  border: 1px solid rgb(0, 0, 255);
+}
+h2.skills-header {
+  color: rgb(102, 51, 153);
+}
+ul.languages-list {
+  list-style-image: url(globe.png);
+}
+a:hover {
+  color: blue;
 }

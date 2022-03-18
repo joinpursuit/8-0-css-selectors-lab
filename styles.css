@@ -24,8 +24,8 @@ body {
 a {
 	color: red;
 }
-.languages-list li {
-	list-style-image: "./assets/globe.png";
+.languages-list {
+	list-style-image: url(./assets/globe.png);
 }
 
 /* Do not change any CSS below this line. */

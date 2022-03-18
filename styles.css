@@ -35,10 +35,6 @@ a {
   list-style-image: url(./assets/globe.png);
 }
 
-div .luminari-font {
-  font-family: Luminari;
-}
-
 #intro-paragraph {
   font-size: 35px;
   text-shadow: 2px 2px #ff0000;

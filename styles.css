@@ -48,8 +48,8 @@ li {
 }
 
 .intro-paragraph {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  color: rgb(124, 0, 128);
+  font-size: 20px;
 }
 
 .hardest-bug {

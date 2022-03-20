@@ -77,7 +77,7 @@ h2.skills-header {
   color: rgb(102, 51, 153);
 }
 ul.languages-list {
-  list-style-image: url(globe.png);
+  list-style-image: url(./assets/globe.png);
 }
 a:hover {
   color: blue;

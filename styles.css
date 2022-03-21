@@ -4,6 +4,9 @@
 h1 {
   color: blue;
   font-size: 30px;
+  font-family: Georgia, serif;
+  font-weight: bold;
+  text-decoration: blue underline;
 }
 
 ul {
@@ -33,10 +36,14 @@ img {
 
 body {
   font-family: sans-serif;
+  text-align: center;
 }
 
 h3 {
   text-decoration-line: underline;
+  font-family: Georgia, serif;
+  font-weight: bold;
+  text-decoration: blue underline;
 }
 
 html {
@@ -50,6 +57,7 @@ html {
 }
 
 p {
+  font-family: Helvetica, sans-serif;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -57,4 +65,23 @@ p {
 h2,
 h3 {
   font-size: 20px;
+  font-family: Georgia, serif;
+  font-weight: bold;
+  text-decoration: blue underline;
+}
+
+a {
+  color: red;
+}
+
+.profile-photo {
+  border: 1px solid blue;
+}
+
+.skills-header {
+  color: rebeccapurple;
+}
+
+.languages-list {
+  list-style-image: url(./assets/globe.png)
 }

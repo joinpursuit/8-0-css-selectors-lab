@@ -2,59 +2,82 @@
 
 /* Do not change any CSS below this line. */
 h1 {
-  color: blue;
-  font-size: 30px;
+	/* border-bottom: 1px solid blue; */
+	color: blue;
+	font-size: 30px;
+	font-family: Georgia, serif;
+	font-weight: bold;
+	text-decoration: underline;
 }
 
 ul {
-  list-style-type: none;
+	list-style-type: none;
 }
 
 ol {
-  font-weight: bold;
+	font-weight: bold;
 }
 
 li {
-  text-align: center;
-  border: 1px solid red;
-  border-radius: 10px;
-  color: blue;
-  background-color: lightpink;
-  padding-left: 30px;
+	text-align: center;
+	border: 1px solid red;
+	border-radius: 10px;
+	color: blue;
+	background-color: lightpink;
+	padding-left: 30px;
 }
 
 img {
-  width: auto;
-  height: 200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+	width: auto;
+	height: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 body {
-  font-family: sans-serif;
+	font-family: sans-serif;
+	text-align: center;
 }
 
 h3 {
-  text-decoration-line: underline;
+	text-decoration-line: underline;
+	font-family: Georgia, serif;
+	font-weight: bold;
 }
 
 html {
-  background-color: rgb(159, 193, 201);
-  background: radial-gradient(
-    circle,
-    rgba(159, 193, 201, 1) 9%,
-    rgba(224, 209, 221, 1) 52%,
-    rgba(0, 212, 255, 1) 100%
-  );
+	background-color: rgb(159, 193, 201);
+	background: radial-gradient(
+		circle,
+		rgba(159, 193, 201, 1) 9%,
+		rgba(224, 209, 221, 1) 52%,
+		rgba(0, 212, 255, 1) 100%
+	);
 }
 
 p {
-  padding-top: 20px;
-  padding-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: Helvetica, sans-serif;
 }
-
+a {
+	color: red;
+}
 h2,
 h3 {
-  font-size: 20px;
+	font-size: 20px;
+	font-family: Georgia, serif;
+	font-weight: bold;
+	text-decoration: underline solid rgb(0, 0, 255);
+}
+.profile-photo {
+	border: 1px solid blue;
+}
+.skills-header {
+	text-decoration: underline solid rgb(0, 0, 255);
+	color: rebeccapurple;
+}
+.languages-list {
+	list-style-image: url('/assets/globe.png');
 }

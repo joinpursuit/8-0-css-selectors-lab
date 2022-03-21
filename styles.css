@@ -24,7 +24,18 @@ a {
 .languages-list {
   list-style-image: url('./assets/globe.png');
 }
-
+/*Additional declarations start here*/
+ol {
+  text-decoration-line: line-through;
+  font-family: Luminari, Courier;
+}
+p {
+  text-align: center;
+  border: 10px dotted gray;
+  border-radius: 10px;
+  text-decoration-line: overline underline;
+}
+/*Additional declarations end here*/
 /* Do not change any CSS below this line. */
 h1 {
   color: blue;

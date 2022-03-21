@@ -1,4 +1,28 @@
 /* Write your CSS below. */
+p {
+  font-family: Helvetica, sans-serif;
+}
+.Headers {
+  font-family: Georgia, serif;
+  text-decoration: underline solid blue;
+  font-weight: 700;
+}
+h2.skills-header {
+  color: rebeccapurple;
+}
+a {
+  color: red;
+}
+ul.languages-list {
+  list-style-image: url("globe.png");
+}
+body {
+  text-align: center;
+}
+.profile-photo {
+  border: 1px solid blue;
+}
+
 
 /* Do not change any CSS below this line. */
 h1 {

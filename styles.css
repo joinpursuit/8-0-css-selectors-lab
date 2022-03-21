@@ -1,14 +1,5 @@
-/* Write your CSS below. */
 p {
   font-family: Helvetica, sans-serif;
-}
-
-body {
-  text-align: center;
-}
-
-img.profile-photo {
-  border: 1px solid rgb(0, 0, 255);
 }
 
 h1,
@@ -17,10 +8,18 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
   font-family: Georgia, serif;
-  text-decoration: underline solid blue;
-  
+  font-weight: bold;
+  text-decoration: underline blue;
+}
+
+.profile-photo {
+  border: 1px solid blue;
+}
+
+body {
+  text-align: center;
+  width: 600px;
 }
 
 .skills-header {
@@ -35,7 +34,10 @@ a {
   list-style-image: url(./assets/globe.png);
 }
 
-
+#intro-paragraph {
+  font-size: 35px;
+  text-shadow: 2px 2px #ff0000;
+}
 
 /* Do not change any CSS below this line. */
 h1 {

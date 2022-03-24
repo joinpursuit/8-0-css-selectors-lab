@@ -1,6 +1,62 @@
-/* Write your CSS below. */
+/**
+ * /* Write your CSS below.
+ *
+ * @format
+ */
+
+p {
+  font-family: Helvetica, sans-serif;
+  color: azure;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  color: gold;
+  text-decoration: blue underline;
+}
+
+.profile-photo {
+  border: 1px solid blue;
+  border-radius: 50px;
+}
+
+body {
+  display: grid;
+  text-align: center;
+}
+
+h2.skills-header {
+  color: rebeccapurple;
+}
+
+a {
+  color: red;
+  text-shadow: 2px 2px 2px rgb(38, 235, 88);
+  font-weight: 900;
+  font-size: 15px;
+}
+
+ul.languages-list {
+  list-style-image: url('./assets/globe.png');
+}
+
+.email-drop a {
+  color: azure;
+}
+
+h3 {
+  text-shadow: 2px 2px 1px rgba(185, 224, 247, 0.5);
+}
+
+h2 {
+  text-shadow: 2px 2px 1px rgba(50, 50, 50, 0.5);
+}
 
 /* Do not change any CSS below this line. */
+
 h1 {
   color: blue;
   font-size: 30px;
@@ -40,12 +96,14 @@ h3 {
 }
 
 html {
-  background-color: rgb(159, 193, 201);
-  background: radial-gradient(
-    circle,
-    rgba(159, 193, 201, 1) 9%,
-    rgba(224, 209, 221, 1) 52%,
-    rgba(0, 212, 255, 1) 100%
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    180deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(190, 44, 108, 1) 24%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 108, 51, 1) 77%,
+    rgba(252, 176, 69, 1) 100%
   );
 }
 

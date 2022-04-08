@@ -76,8 +76,8 @@ img.profile-photo {
 h2.skills-header{
   color: rebeccapurple;
 }
-ul.languages-list {
-  list-style-image: [globe.png];
+.languages-list {
+  list-style-image: url("globe.png");
 }
 a{
   color: red;

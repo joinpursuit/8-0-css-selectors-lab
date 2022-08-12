@@ -1,9 +1,25 @@
 /* Write your CSS below. */
 
 /* Do not change any CSS below this line. */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+  font-weight: bold;
+  text-decoration: underline solid blue
+  
+}
+
 h1 {
   color: blue;
   font-size: 30px;
+  font-family: Georgia, serif;
+  font-weight: 700;
+  text-decoration: underline;
 }
 
 ul {
@@ -12,6 +28,11 @@ ul {
 
 ol {
   font-weight: bold;
+}
+.profile-photo{
+  border-style: solid;
+  border-color: blue;
+  border-width: 1px;
 }
 
 li {
@@ -29,10 +50,12 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  
 }
 
 body {
-  font-family: sans-serif;
+  
+  text-align: center;
 }
 
 h3 {
@@ -48,8 +71,14 @@ html {
     rgba(0, 212, 255, 1) 100%
   );
 }
+h2.skills-header{
+  color:rebeccapurple;
+  text-decoration: underline solid blue;
+  font-weight: 700;
+}
 
 p {
+  font-family: Helvetica, sans-serif;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -57,4 +86,11 @@ p {
 h2,
 h3 {
   font-size: 20px;
+  font-family: Georgia, serif;
+}
+a{
+  color:red
+}
+.languages-list{
+  list-style-image: url(assets/globe.png) ;
 }

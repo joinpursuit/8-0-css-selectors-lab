@@ -61,6 +61,24 @@ h3 {
   font-size: 20px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
   font-family: Georgia, serif;
+  font-weight: bold;
+  text-decoration: underline solid rgb(0, 0, 255)
+}
+
+.profile-photo {
+  border: 1px solid rgb(0, 0, 255);
+}
+
+.skills-header {
+  color: rgb(102, 51, 153);
+}
+
+a {
+  color: rgb(255, 0, 0);
+}
+
+.languages-list {
+  list-style-image: url(assets/globe.png)
 }

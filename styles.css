@@ -4,6 +4,9 @@
 h1 {
   color: blue;
   font-size: 30px;
+  font-family: Georgia, serif;
+  text-decoration: underline solid rgb(0, 0, 255);
+  font-weight: 700;
 }
 
 ul {
@@ -29,14 +32,19 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: 1px solid rgb(0, 0, 255)
 }
 
 body {
   font-family: sans-serif;
+  text-align: center;
 }
 
 h3 {
   text-decoration-line: underline;
+  font-family: Georgia, serif;
+  text-decoration: underline solid rgb(0, 0, 255);
+  font-weight: 700;
 }
 
 html {
@@ -52,9 +60,25 @@ html {
 p {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: Helvetica, sans-serif;
 }
 
 h2,
 h3 {
   font-size: 20px;
+  font-family: Georgia, serif;
+  text-decoration: underline solid rgb(0, 0, 255);
+  font-weight: 700;
 }
+.skills-header {
+  color: rgb(102, 51, 153);
+}
+
+a {
+  color: rgb(255, 0, 0);
+}
+
+.languages-list {
+  list-style-image: url(assets/globe.png);
+}
+

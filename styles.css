@@ -24,13 +24,67 @@ body {
 
 * a {
   color: red;
+  font-family:fantasy;
+  font-size: 18px;
 }
 
 .languages-list {
   list-style-image: url(assets/globe.png) ;
 }
 
+#libraries li {
+  font-size: 26px;
+  font-family:cursive;
+  border: 5px solid rgb(23, 180, 180);
+  border-radius: 20px;
+  color: rgb(207, 207, 233);
+  background-color: rgb(118, 36, 173);
+  padding-left: 30px;
+  }
+  #libraries li:hover {
+    color: yellow;
+    background-color: greenyellow ;
+  }
 
+  a:hover {
+    background-color: navy ;
+    color: white;
+  }
+
+  div.stress p{
+    color: rgb(255, 119, 0);
+    font-size: 30px;
+    text-decoration: line-through;
+    text-decoration-color: maroon;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+  }
+  
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  
 
 
 

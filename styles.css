@@ -1,4 +1,55 @@
 /* Write your CSS below. */
+p {
+  font-family: Helvetica, sans-serif;
+  color: rgb(46,139,87);
+  font-size: 17px;
+  border: 2px solid rgb(255,182,193);
+  border-radius: 20px;
+  background-image: url(https://i.pinimg.com/736x/79/4a/d4/794ad4df240e859eb4ee2535eb3918a3.jpg)
+}
+
+.h1-color{
+  color: rgb(70,130,180);
+}
+
+h1, h2, h3{
+  font-family: Georgia, serif;
+  font-weight: bold;
+  text-decoration: underline solid rgb(0, 0, 255);
+}
+
+.skills-header{
+  color: rebeccapurple
+}
+
+body{
+  text-align: center;
+  background-image: url(https://images.unsplash.com/photo-1564951434112-64d74cc2a2d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Ymx1ZSUyMGFlc3RoZXRpY3xlbnwwfHwwfHw%3D&w=1000&q=80);
+
+}
+
+.profile-photo{
+  border: 1px solid rgb(0, 0, 255);
+  border-radius: 100px;
+}
+
+a{
+  color: rgb(255, 0, 0)
+}
+
+a:hover {
+  color: rgb(30,144,255)
+  ;
+}
+
+.languages-list{
+  list-style-image: url(globe.png)
+}
+
+.button{
+  background-color: rgb(230,230,250);
+  color: rgb(153,50,204)
+}
 
 /* Do not change any CSS below this line. */
 h1 {

@@ -23,6 +23,12 @@ li {
   padding-left: 30px;
 }
 
+li:hover {
+  font-size: 40px;
+  color: beige;
+  background-color: lightcoral;
+}
+
 img {
   width: auto;
   height: 200px;
@@ -73,6 +79,11 @@ a {
   color: red;
 }
 
+p.intro {
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  font-size: 22px;
+  background-color: rgb(127, 255, 212, 0.5);
+}
 .profile-photo {
   border: blue solid 1px;
 }
@@ -83,4 +94,18 @@ h2.skills-header {
 
 .languages-list {
   list-style-image: url("./assets/globe.png");
+}
+
+.libraries li{
+  background-color: lightseagreen;
+  margin: 4px;
+  padding: 10px;
+}
+
+p.bug {
+  color: maroon;
+  font-size: 18px;
+  /* font-family: 'Times New Roman', Times, serif; */
+  background-color: rgb(240, 248, 255, 0.2);
+  padding: 4px;
 }

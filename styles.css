@@ -1,60 +1,89 @@
 /* Write your CSS below. */
 
-/* Do not change any CSS below this line. */
-h1 {
-  color: blue;
-  font-size: 30px;
+p {
+    font-family: Helvetica, sans-serif;
 }
 
-ul {
-  list-style-type: none;
+h1,
+h2,
+h3 {
+    font-family: Georgia, serif;
+    font-weight: bold;
+    text-decoration: underline blue;
 }
 
-ol {
-  font-weight: bold;
-}
-
-li {
-  text-align: center;
-  border: 1px solid red;
-  border-radius: 10px;
-  color: blue;
-  background-color: lightpink;
-  padding-left: 30px;
-}
-
-img {
-  width: auto;
-  height: 200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.profile-photo {
+    border: 1px blue solid;
 }
 
 body {
-  font-family: sans-serif;
+    text-align: center;
+}
+
+.skills-header {
+    color: rebeccapurple;
+}
+
+.languages-list {
+    list-style-image: url("./assets/globe.png");
+}
+
+a {
+    color: red;
+}
+
+
+/* Do not change any CSS below this line. */
+
+h1 {
+    color: blue;
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ol {
+    font-weight: bold;
+}
+
+li {
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 10px;
+    color: blue;
+    background-color: lightpink;
+    padding-left: 30px;
+}
+
+img {
+    width: auto;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    font-family: sans-serif;
 }
 
 h3 {
-  text-decoration-line: underline;
+    text-decoration-line: underline;
 }
 
 html {
-  background-color: rgb(159, 193, 201);
-  background: radial-gradient(
-    circle,
-    rgba(159, 193, 201, 1) 9%,
-    rgba(224, 209, 221, 1) 52%,
-    rgba(0, 212, 255, 1) 100%
-  );
+    background-color: rgb(159, 193, 201);
+    background: radial-gradient( circle, rgba(159, 193, 201, 1) 9%, rgba(224, 209, 221, 1) 52%, rgba(0, 212, 255, 1) 100%);
 }
 
 p {
-  padding-top: 20px;
-  padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 h2,
 h3 {
-  font-size: 20px;
+    font-size: 20px;
 }

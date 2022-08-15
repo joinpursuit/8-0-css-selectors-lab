@@ -1,5 +1,52 @@
 /* Write your CSS below. */
 
+p {
+  font-family: Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  text-decoration: blue underline;
+}
+
+body {
+  text-align: center;
+}
+
+.profile-photo {
+  border: blue 1px solid;
+}
+
+.skills-header {
+  color: rebeccapurple;
+}
+
+a {
+  color: red;
+}
+
+.languages-list {
+  list-style-image: url(assets/globe.png);
+}
+
+li {
+  padding: 5px;
+  font-weight: bold;
+}
+
+.libraries-header li {
+  padding: 10px;
+}
+
+.intro-p {
+  font-style: italic;
+}
+
+.hardest-bug-so-far-section {
+  font-style: italic;
+}
+
 /* Do not change any CSS below this line. */
 h1 {
   color: blue;

@@ -32,6 +32,25 @@ ul.languages-list {
   list-style-image:url(assets/globe.png);
 }
 
+ol {
+  background-color: violet;
+}
+
+h2.buggy {
+  background-color: green;
+  font-size: large;
+}
+
+p:nth-child(2) {
+  background-color: red;
+}
+
+p:last-child {
+  background-color: white;
+  border: 3px dashed green;
+}
+
+
 /* Do not change any CSS below this line. */
 h1 {
   color: blue;

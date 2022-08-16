@@ -4,6 +4,7 @@
 h1 {
   color: blue;
   font-size: 30px;
+  text-align: center;
 }
 
 ul {
@@ -32,7 +33,7 @@ img {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: sans-serif Arial, Helvetica, sans-serif;
 }
 
 h3 {
@@ -58,3 +59,5 @@ h2,
 h3 {
   font-size: 20px;
 }
+
+  

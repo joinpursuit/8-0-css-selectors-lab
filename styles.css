@@ -1,4 +1,49 @@
 /* Write your CSS below. */
+body{
+  text-align: center;
+}
+
+p{
+  font-family:  Helvetica, sans-serif;
+}
+
+.profile-photo{
+  border: 1px solid rgb(0, 0, 255)
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {  font-family: Georgia, serif;
+  font-weight: bold;
+text-decoration: underline blue;
+}
+
+.skills-header{
+  color:rebeccapurple
+}
+
+
+a:link{
+  color:red
+}
+
+.languages-list{
+  list-style-image: url("assets/globe.png");
+}
+#Library{
+  color:blueviolet;
+  transition-duration: 2s;
+}
+
+p:hover{
+  font-size:30px;
+  color:brown;
+  transition-duration: 2s;
+}
+#Buggy{color:greenyellow}
 
 /* Do not change any CSS below this line. */
 h1 {

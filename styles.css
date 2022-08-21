@@ -4,6 +4,7 @@
 h1 {
   color: blue;
   font-size: 30px;
+ 
 }
 
 ul {
@@ -22,7 +23,9 @@ li {
   background-color: lightpink;
   padding-left: 30px;
 }
-
+a {
+  color: red;
+}
 img {
   width: auto;
   height: 200px;
@@ -31,8 +34,27 @@ img {
   margin-right: auto;
 }
 
+.profile-photo {
+  border: 1px solid blue;
+}
+
+.skills-header {
+  color: rebeccapurple
+}
+
+.languages-list {
+  
+  list-style-image: url(/Users/danielsolaque/8-0-css-selectors-lab/assets/globe.png) ;
+}
+
 body {
   font-family: sans-serif;
+  text-align: center ;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, serif;
+  text-decoration: underline solid blue ;
 }
 
 h3 {
@@ -50,6 +72,7 @@ html {
 }
 
 p {
+  font-family: Helvetica, sans-serif;
   padding-top: 20px;
   padding-bottom: 20px;
 }

@@ -1,26 +1,26 @@
 /* Write your CSS below. */
-.para{
+.para {
   font-family: Helvetica, sans-serif;
 }
-.headings{
+.headings {
   font-family: Georgia, serif;
-  font-weight:bold;
-  text-decoration:underline blue;
+  font-weight: bold;
+  text-decoration: underline blue;
 }
 .skills-header {
-  color:rgb(102,51,153)
+  color: rgb(102, 51, 153);
 }
-#body{
+#body {
   text-align: center;
 }
-.profile-photo{
-  border:blue solid 1px;
+.profile-photo {
+  border: blue solid 1px;
 }
-.languages-list{
+.languages-list {
   list-style-image: url('assets/globe.png');
 }
-a{
-  color:rgb(255,0,0)
+a {
+  color: rgb(255, 0, 0);
 }
 /* Do not change any CSS below this line. */
 h1 {

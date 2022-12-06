@@ -11,6 +11,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .profile-photo {
   border: 1px solid blue;
+  width: 150px;
+  height: 250px;
 }
 
 body {
@@ -20,6 +22,7 @@ body {
 .skills-header {
   font-weight: bold;
   color: rebeccapurple;
+  text-decoration: underline solid rgb(0, 0, 255);
 }
 
 a {
@@ -28,7 +31,19 @@ a {
 
 .languages-list {
   list-style-image: url("assets/globe.png");
+  display: inline-block;
+  margin: 0;
+  padding: 0;
 }
+
+.languages-list li {
+  padding: 0px 20px 35px 20px;
+}
+
+.wrapper {
+  text-align: center;
+}
+
 /* Do not change any CSS below this line. */
 h1 {
   color: blue;

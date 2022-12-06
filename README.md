@@ -41,7 +41,7 @@ To complete the tests in this lab, you will need to add the following styles. If
 - [ ] Update the style of all headings so that they are bold and have a blue underline. Note that an underline _is not_ the same as a border.
 - [ ] Add a class of `skills-header` to the relevant `h2` element. Then, update your CSS so that any element with a `skills-header` class has the color `rebeccapurple`.
 - [ ] Change all links on the page so that they show up `red`.
-- [ ] The unordered list underneath the "Languages" heading should include a class of `languages-list`. Then, style all lists that have that class to have a `list-style-image` property with the value being the [globe](./assets/globe.png) image stored in the `assets/` folder.
+- [ ] The unordered list underneath the "Languages" heading should include a class of `languages-list`. Then, style all lists that have that class to have a `list-style-image` property with the value being the [globe](.globe.png/assets/) image stored in the `assets/` folder.
 
 Once your complete with the above tasks, your page should look something like the image below.
 

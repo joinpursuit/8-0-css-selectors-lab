@@ -1,15 +1,24 @@
 /* Write your CSS below. */
 
 /* Do not change any CSS below this line. */
-h1 {
+
+a{
+  color: rgb(255, 0, 0)
+}
+h1 { 
+  font-family: Georgia, serif;
   color: blue;
   font-size: 30px;
+  text-decoration:  underline solid rgb(0, 0, 255);
 }
 
-ul {
+ul { 
+  
   list-style-type: none;
 }
-
+.languages-list {
+ list-style-image: url(.globe.png/assets/);
+}
 ol {
   font-weight: bold;
 }
@@ -23,7 +32,7 @@ li {
   padding-left: 30px;
 }
 
-img {
+img { 
   width: auto;
   height: 200px;
   display: block;
@@ -31,12 +40,20 @@ img {
   margin-right: auto;
 }
 
-body {
+.profile-photo {
+  border: 1px solid rgb(0, 0, 255);
+}
+
+body { 
+  text-align: center;
   font-family: sans-serif;
 }
 
-h3 {
-  text-decoration-line: underline;
+h3 { 
+  font-family: Georgia, serif;
+  text-decoration-line: underline; 
+  font-size: 20px;
+  text-decoration: underline solid rgb(0, 0, 255);
 }
 
 html {
@@ -50,11 +67,16 @@ html {
 }
 
 p {
+  font-family: Helvetica, sans-serif;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-h2,
-h3 {
-  font-size: 20px;
+h2 { 
+  font-family: Georgia, serif;
+  font-size: 20px; 
+  text-decoration: underline solid rgb(0, 0, 255)
+}
+h2.skills-header {
+  color: rgb(102, 51, 153)
 }

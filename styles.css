@@ -1,4 +1,47 @@
 /* Write your CSS below. */
+p {
+  font-family: Helvetica, sans-serif;
+}
+h1, h2, h3 {
+font-family: Georgia, serif;
+}
+body {
+  text-align: center;
+}
+img.profile-photo {
+  border: 1px solid blue;
+}
+h1, h2, h3 {
+font-weight: bold;
+text-decoration: underline solid blue;
+}
+h2.skills-header {
+  color: rebeccapurple;
+}
+a {
+  color: red
+}
+
+ul.languages-list {
+  list-style-image: url("./assets/globe.png")
+}
+
+p.hardest {
+  color: greenyellow;
+  font-weight: bolder;
+  font-size: larger;
+  
+}
+
+p.info {
+color: crimson;
+font-weight: bolder;
+}
+
+
+ol.libraries-list {
+  font-size: larger;
+}
 
 /* Do not change any CSS below this line. */
 h1 {

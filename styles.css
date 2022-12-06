@@ -33,6 +33,11 @@ img {
 
 body {
   font-family: sans-serif;
+  text-align: center;
+}
+
+.skills-header {
+  color:rebeccapurple;
 }
 
 h3 {
@@ -52,9 +57,25 @@ html {
 p {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family:Helvetica, sans-serif;
 }
 
-h2,
-h3 {
+h1,h2,h3{
   font-size: 20px;
+  font-family: Georgia, serif;
+  font-style: bold;
+  text-decoration: underline blue;
+}
+
+.profile-photo {
+border: solid 1px blue;
+}
+ 
+
+a {
+  color:red
+}
+
+.languages-list{
+ list-style-image: url("./assets/globe.png");
 }

@@ -1,5 +1,52 @@
 /* Write your CSS below. */
+h1,
+h2,
+h3 {
+  font-family: Georgia, serif;
+  text-decoration: underline solid rgb(0, 0, 255);
+}
 
+p {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  text-align: center;
+}
+
+.profile-photo {
+  border: 1px solid rgb(0, 0, 255);
+}
+
+.skills-header {
+  color: rgb(102, 51, 153);
+}
+
+a {
+  color: red;
+}
+
+.languages-list {
+  list-style-image: url(assets/globe.png);
+}
+
+li {
+  text-shadow: 1.3px 1.3px rgb(182, 0, 0);
+}
+
+.libraries {
+  border: 2px solid rgb(0, 0, 255);
+  border-radius: 10px;
+}
+
+.intro-paragraph {
+  border: 2px solid rgb(0, 0, 255);
+  border-radius: 10px;
+}
+
+.hardest-bug {
+  text-shadow: 1.3px 1.3px rgb(252, 252, 252);
+}
 /* Do not change any CSS below this line. */
 h1 {
   color: blue;

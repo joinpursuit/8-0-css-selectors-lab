@@ -1,9 +1,56 @@
 /* Write your CSS below. */
+p {
+  font-family: Helvetica, sans-serif;
+  color: purple;
+  font-size: 30px;
+}
+
+ h1, h2, h3, h4, h5, h6 { 
+   font-family: Georgia, serif;
+   font-weight: bold;
+   text-decoration: blue underline;
+   
+} 
+
+.profile-photo {
+  border: 1px solid blue;
+}
+
+body {
+  text-align: center;
+}
+
+.skills-header {
+  color: rebeccapurple;
+}
+
+a {
+  color: red;
+}
+
+.languages-list {
+  list-style-image: url(assests/globe.png);
+}
+
+ol li {
+  color:blueviolet;
+  font-size: 20px;
+}
+
+ul li {
+  color: yellow;
+  font-size: 20px;
+}
+
+ h2 p {
+  color: purple;
+}
+
 
 /* Do not change any CSS below this line. */
 h1 {
   color: blue;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 ul {

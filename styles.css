@@ -1,9 +1,8 @@
 /* Write your CSS below. */
 
 /* Do not change any CSS below this line. */
-h1 {
-  color: blue;
-  font-size: 30px;
+a {
+  color: rgb(255, 0, 0);
 }
 
 ul {
@@ -23,6 +22,10 @@ li {
   padding-left: 30px;
 }
 
+.languages-list {
+  list-style-image: url('../assets/globe.png');
+}
+
 img {
   width: auto;
   height: 200px;
@@ -31,12 +34,38 @@ img {
   margin-right: auto;
 }
 
+.profile-photo {
+  border: 1px solid rgb(0, 0, 255);
+}
+
 body {
+  text-align: center;
   font-family: sans-serif;
 }
 
+h1 {
+  font-family: Georgia, serif;
+  text-decoration: underline solid rgb(0, 0, 255);
+  color: blue;
+  font-size: 30px;
+}
+
+h2
+{
+  font-size: 20px;
+  text-decoration: underline solid rgb(0, 0, 255);
+  font-family: Georgia, serif;
+}
+
+h2.skills-header {
+   color: rgb(102, 51, 153);
+}
+
 h3 {
+  font-family: Georgia, serif;
+  text-decoration: underline solid rgb(0, 0, 255);
   text-decoration-line: underline;
+  font-size: 20px;
 }
 
 html {
@@ -52,9 +81,7 @@ html {
 p {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: Helvetica, sans-serif;
 }
 
-h2,
-h3 {
-  font-size: 20px;
-}
+

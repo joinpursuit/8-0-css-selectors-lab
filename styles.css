@@ -1,5 +1,9 @@
 /* Write your CSS below. */
-
+h1, h2, h3, h4 {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  text-decoration: underline blue;
+}
 /* Do not change any CSS below this line. */
 h1 {
   color: blue;
@@ -33,6 +37,7 @@ img {
 
 body {
   font-family: sans-serif;
+  text-align: center;
 }
 
 h3 {
@@ -52,9 +57,26 @@ html {
 p {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: Helvetica, sans-serif;
 }
 
 h2,
 h3 {
   font-size: 20px;
+}
+
+.profile-photo {
+  border: 1px solid blue;
+}
+
+h2.skills-header {
+  color: rebeccapurple;
+}
+
+a {
+  color: red;
+}
+
+.languages-list {
+  list-style-image: url(./assets/globe.png)
 }

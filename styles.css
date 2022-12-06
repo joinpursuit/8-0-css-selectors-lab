@@ -6,6 +6,8 @@ p {
 
 h1, h2, h3 {
   font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: bold;
+  text-decoration: underline blue;
 }
 
 .profile-photo {
@@ -16,8 +18,17 @@ body {
   text-align: center;
 }
 
+.skills-header {
+  color: rebeccapurple;
+}
 
+a {
+  color: red;
+}
 
+ul {
+  list-style-image: url("./assets/globe.png");
+}
 
 /* Do not change any CSS below this line. */
 h1 {

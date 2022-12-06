@@ -32,6 +32,7 @@ img {
 }
 
 body {
+  text-align: center;
   font-family: sans-serif;
 }
 
@@ -50,11 +51,41 @@ html {
 }
 
 p {
+  font-family: Helvetica, sans-serif;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-h2,
-h3 {
+h1, h2, h3 {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  text-decoration: underline blue;
+}
+.profile-photo {
+  border: 1px solid blue
+}
+h2, h3 {
   font-size: 20px;
+}
+.skills-header{
+  color: rebeccapurple;
+}
+a {
+  color: red;
+}
+.languages-list {
+  list-style-image: url("./assets/globe.png");
+}
+.libraries-list {
+  color: blueviolet;
+}
+.library {
+  font-weight: lighter;
+}
+.bug-header {
+  color: darkcyan;
+}
+.bug-desc{
+  padding-bottom: -1px;
+  color: pink;
 }

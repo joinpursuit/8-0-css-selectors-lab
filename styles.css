@@ -1,9 +1,27 @@
 /* Write your CSS below. */
 
 /* Do not change any CSS below this line. */
+p 
+{
+  font-family: Helvetica, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, serif;
+  text-decoration: bold;
+  text-decoration: underline blue;
+}
 h1 {
   color: blue;
   font-size: 30px;
+}
+body {
+  text-align: center;
+  width: 600 px;
 }
 
 ul {
@@ -23,14 +41,17 @@ li {
   padding-left: 30px;
 }
 
-img {
+ img {
   width: auto;
   height: 200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: 1px solid blue;
 }
-
+a {
+  color: red
+}
 body {
   font-family: sans-serif;
 }
@@ -48,13 +69,25 @@ html {
     rgba(0, 212, 255, 1) 100%
   );
 }
+h2.skills-header {
+  color: rebeccapurple;
+}
 
 p {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+  .languages-list {
+      font-size: 35px;
+      list-style-image: url(./assets/globe.png);
+    
+}
 
 h2,
 h3 {
   font-size: 20px;
+}
+#intro-paragraph {
+  text-shadow: 2px 2px red;
+  font-size: 35px;
 }

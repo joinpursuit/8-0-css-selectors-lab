@@ -1,5 +1,28 @@
 /* Write your CSS below. */
-
+div p {
+  font-family: Helvetica, sans-serif;
+}
+img.profile-photo {
+  border: 1px solid blue;
+}
+body.container :is(h1, h2, h3, h4, h5, h6) {
+  text-decoration: underline blue;
+  font-style: bold;
+  font-family: Georgia, serif;
+  /* text-align: center; */
+}
+.skills-header {
+  color: rebeccapurple;
+}
+a:link{
+  color:  red;
+}
+ul.languages-list {
+  list-style-image: url(globe.png/assets/);
+}
+body {
+  text-align: center;
+}
 /* Do not change any CSS below this line. */
 h1 {
   color: blue;

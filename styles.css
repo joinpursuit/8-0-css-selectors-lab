@@ -1,4 +1,37 @@
 /* Write your CSS below. */
+h1,
+h2,
+h3,
+h4,
+h5,
+body {
+  font-family: Georgia, serif;
+  text-align: center;
+  font-weight: 700;
+  text-decoration: underline solid blue;
+}
+
+p {
+  font-family: Helvetica, sans-serif;
+}
+
+.skills-header {
+  color: rebeccapurple;
+}
+
+.profile-photo {
+  border-style: solid;
+  border-width: 1px;
+  border-color: blue;
+}
+
+a {
+  color: red;
+}
+
+.languages-list {
+  list-style-image: url("assets/globe.png");
+}
 
 /* Do not change any CSS below this line. */
 h1 {
@@ -41,12 +74,10 @@ h3 {
 
 html {
   background-color: rgb(159, 193, 201);
-  background: radial-gradient(
-    circle,
-    rgba(159, 193, 201, 1) 9%,
-    rgba(224, 209, 221, 1) 52%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: radial-gradient(circle,
+      rgba(159, 193, 201, 1) 9%,
+      rgba(224, 209, 221, 1) 52%,
+      rgba(0, 212, 255, 1) 100%);
 }
 
 p {

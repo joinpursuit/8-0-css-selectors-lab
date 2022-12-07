@@ -33,6 +33,7 @@ img {
 
 body {
   font-family: sans-serif;
+  text-align: center;
 }
 
 h3 {
@@ -52,9 +53,44 @@ html {
 p {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: 'Helvetica', sans-serif;
 }
 
 h2,
 h3 {
   font-size: 20px;
 }
+
+h1,h2,h3{
+  font-family: 'Georgia', serif;
+}
+
+img.profile-photo{
+  border: 1px solid blue;
+}
+
+h1,h2,h3,h4,h5,h6{
+  text-decoration:underline solid blue;
+}
+
+h2.skills-header {
+  color:rebeccapurple;
+}
+
+a{
+  color: red;
+}
+
+.languages-list {
+  list-style-image: url("./assets/globe.png");
+}
+
+h2.hardest-bug {
+  
+  border:none;
+  color:white;
+  padding:15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size:35px
+} 

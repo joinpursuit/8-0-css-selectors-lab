@@ -18,51 +18,10 @@
   border : 1px solid blue;
  }
  
- .container {
-  position: relative;
-  width: 50%;
- }
-
- .image {
-  display: block;
-  height: 40%;
-  width: 50%;
-  margin:20px
- }
-
- .overlay {
-  position: absolute;
-  bottom: 0;
-  left: 10%;
-  right: 0;
-  background-color: lightseagreen;
-  overflow: hidden;
-  width: 0;
-  height: 100%;
-  transition: .5s ease-in-out;
- }
-
- .container:hover .overlay {
-  width: 100%;
-  left: 0;
- }
-
- .text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  white-space: nowrap;
- }
- 
  body {
   text-align: center;
  }
-
+ 
  .skills-header {
   color:rebeccapurple;
  }
@@ -77,6 +36,10 @@
 
  .languages-list{
   list-style-image: url(assets/globe.png);
+  background-size: 2px;
+  align-content: center;
+  margin-left: 35px;
+  text-align: center;
  }
 
  .target {

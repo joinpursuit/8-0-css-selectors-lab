@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UT/Users/cameronmedina/Pursuit/Labs/8-0-css-selectors-lab/about.htmlF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Intro</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body id="body-text">
     <h1>Your Name Here</h1>
     <div>
       <p>
@@ -17,22 +17,22 @@
       </p>
     </div>
 
-    <img
+    <img class="profile-photo" 
       src="https://www.breakthrough-pt.com/wp-content/uploads/2014/11/female-default-profile-photo.png"
       alt="Profile photo"
     />
 
     <div>
-      <h2>Here are some of my Skills!</h2>
+      <h2 class="skills-header">Here are some of my Skills!</h2>
 
       <h3>Languages</h3>
-      <ul>
+      <ul class="languages-list">
         <li>JavaScript</li>
         <li>SQL</li>
         <li>HTML5</li>
         <li>CSS3</li>
       </ul>
-
+     <div class="libraries-list">
       <h3>Libraries</h3>
       <ol>
         <li>React</li>
@@ -40,19 +40,20 @@
         <li>Node</li>
         <li>Bootstrap</li>
       </ol>
+      </div>
     </div>
 
     <div>
       <h2>Hardest Bug So Far</h2>
-      <p>
+      <p id="bug-quote">
         My hardest bug I ever came across was this infinite loop I couldn't
         escape.
       </p>
-      <p>I came up with a totally sick solution though by doing ...</p>
+      <p id="solution-quote">I came up with a totally sick solution though by doing ...</p>
     </div>
 
     <h2>Contact Me</h2>
-    <div>
+    <div class="email-link">
       Email me at:
       <a href="#" target="_top">hello@pursuit.org</a>
     </div>

@@ -1,10 +1,7 @@
  /* Write your CSS below. */
- p {
-  font-family: Helvetica, sans-serif;
- }
- 
- .intro{
-  text-shadow: 5px 5px #558ABB;
+
+ body {
+  text-align: center;
  }
 
  h1,h2,h3,h4,h5,h6 {
@@ -13,13 +10,17 @@
   text-decoration: underline;
   text-decoration-color: blue;
  }
- 
- .profile-photo {
-  border : 1px solid blue;
+
+ p {
+  font-family: Helvetica, sans-serif;
  }
  
- body {
-  text-align: center;
+ .intro{
+  text-shadow: 5px 5px #558ABB;
+ }
+
+ .profile-photo {
+  border : 1px solid blue;
  }
  
  .skills-header {
@@ -36,9 +37,9 @@
 
  .languages-list{
   list-style-image: url(assets/globe.png);
-  background-size: 2px;
+  background-size: 12px;
   align-content: center;
-  margin-left: 35px;
+  margin-left: 45px;
   text-align: center;
  }
 
@@ -52,6 +53,14 @@
   font-size: 36px;
  }
 
+ li:hover{
+  color:black;
+  font-size: 36px;
+  font-family: 'Arial Narrow Bold', sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+ }
+ 
 
  /* Do not change any CSS below this line. */
  h1 {

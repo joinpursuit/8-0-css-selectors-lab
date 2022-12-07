@@ -2,12 +2,16 @@
 
 /* Do not change any CSS below this line. */
 h1 {
+  font-family: Georgia, serif;
   color: blue;
   font-size: 30px;
+  text-decoration: underline blue;
+  font-style: bold;
 }
 
-ul {
+.languages-list {
   list-style-type: none;
+  list-style-image: url("http://localhost:60749/globe.png");
 }
 
 ol {
@@ -29,9 +33,11 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: 1px solid blue;
 }
 
 body {
+  text-align: center;
   font-family: sans-serif;
 }
 
@@ -50,11 +56,23 @@ html {
 }
 
 p {
+  font-family: Helvetica, sans-serif;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 h2,
 h3 {
+  text-decoration: underline blue;
+  font-style: bold;
+  font-family: Georgia, serif;
   font-size: 20px;
+}
+
+h2.skills-header {
+  color: rebeccapurple;
+}
+
+a {
+  color: red;
 }

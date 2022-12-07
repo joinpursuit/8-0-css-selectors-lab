@@ -6,6 +6,10 @@ h1 {
   font-size: 30px;
 }
 
+h1:hover{
+  color: purple;
+}
+
 ul {
   list-style-type: none;
 }
@@ -23,12 +27,32 @@ li {
   padding-left: 30px;
 }
 
-img {
+.profile-photo {
   width: auto;
   height: 200px;
+  position: relative;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 100px;
+  
+}
+
+.profile2{
+ width: auto;
+ height: 200px;
+ position: absolute;
+ top: 150px;
+ left: 620px;
+ border-radius: 100px;
+ opacity: 0;
+ transition: all 1s ease;
+  
+ 
+}
+
+.profile2:hover{
+opacity: 1;
 }
 
 body {
@@ -52,9 +76,56 @@ html {
 p {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: Helvetica, sans-serif;
 }
 
 h2,
 h3 {
   font-size: 20px;
 }
+h1, h2, h3, h4, h5, h6{
+  font-family: Georgia, serif;
+  font-weight: 700;
+  text-decoration: underline solid rgb(0, 0, 255);
+}
+
+body{
+  text-align: center;
+}
+
+img.profile-photo{
+  border: 1px solid rgb(0, 0, 255)
+}
+
+h2.skills-header{
+  color: rgb(102, 51, 153);
+}
+
+a{
+  color: rgb(255, 0, 0);
+}
+
+.languages-list{
+list-style-image: url(assets/globe.png);
+}
+
+h3:hover{
+  color: purple;
+}
+
+h2:hover{
+  color:purple
+}
+
+a:hover{
+  color: purple;
+}
+
+li:hover{
+  color: purple;
+}
+
+
+
+
+

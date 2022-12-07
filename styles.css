@@ -1,4 +1,73 @@
-/* Write your CSS below. */
+ /* Write your CSS below. */
+ p {
+  font-family: Helvetica, sans-serif;
+ }
+ 
+ .intro{
+  text-shadow: 5px 5px #558ABB;
+ }
+
+ h1,h2,h3,h4,h5,h6 {
+  font-family:Georgia, serif;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: blue;
+ }
+ 
+ .profile-photo {
+  border : 1px solid blue;
+ }
+ 
+ .mirror-x-effect {
+  $url : url(assets/download.jpeg);
+  background-image: $url;
+  background-size: cover;
+  background-position: center;
+
+  @supports (background-blend-mode: overlay) {
+    background-image: $url, $url, $url, $url, $url, $url;
+    background-size: 200%, 80%, 60%, 50%, 40%, 100%;
+    background-position: 50%, 80%, 30%, 0;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+  }
+  
+    &:hover {
+    background-size: 100%, 100%, 30%, 90%, 20%, 150%;
+    transition: background 1s ease;
+  }
+ }
+ body {
+  text-align: center;
+ }
+
+ .skills-header {
+  color:rebeccapurple;
+ }
+
+ a {
+  color:red;
+ }
+ 
+ ol li {
+  list-style-type: upper-roman;
+ }
+
+ .languages-list{
+  list-style-image: url(assets/globe.png);
+  list-style-position:outside;
+ }
+
+ .target {
+  font-size: 14px;
+  transition: font-size 4s 1s;
+  transition: margin-right 4s, color 1s;
+}
+
+.target:hover {
+  font-size: 36px;
+}
+
 
 /* Do not change any CSS below this line. */
 h1 {

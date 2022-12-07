@@ -1,7 +1,7 @@
 /* Write your CSS below. */
 
 p {
-  font: Helvetica sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
 h1,
@@ -9,10 +9,12 @@ h2,
 h3,
 h4,
 h5,
-h6 {font: Georgia serif;
-  font-weight: 700
-  
+h6 {font-family: Georgia, serif;
+  font-weight: 700;
+  text-decoration:  underline solid blue;
 }
+
+
 
 .profile-photo {
   border: 1px solid blue
@@ -23,7 +25,19 @@ body {
 }
 
 
+.skills-header  {
+  color: rebeccapurple;
+}
 
+h2.skills-header{color:rebeccapurple}
+
+a {
+  color: red;
+}
+
+.languages-list {
+  list-style-image:url(./assets/globe.png);
+}
 
 
 /* Do not change any CSS below this line. */

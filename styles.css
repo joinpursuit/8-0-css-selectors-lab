@@ -1,45 +1,112 @@
-/* Write your CSS below. */
+ /* Write your CSS below. */
 
-/* Do not change any CSS below this line. */
-h1 {
+ body {
+  text-align: center;
+ }
+
+ h1,h2,h3,h4,h5,h6 {
+  font-family:Georgia, serif;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: blue;
+ }
+
+ p {
+  font-family: Helvetica, sans-serif;
+ }
+ 
+ .intro{
+  text-shadow: 5px 5px #558ABB;
+ }
+
+ .profile-photo {
+  border : 1px solid blue;
+ }
+ 
+ .skills-header {
+  color:rebeccapurple;
+ }
+
+ a {
+  color:red;
+ }
+ 
+ ol li {
+  list-style-type: upper-roman;
+ }
+
+ .languages-list{
+  list-style-image: url(assets/globe.png);
+  background-size: 12px;
+  align-content: center;
+  margin-left: 45px;
+  text-align: center;
+ }
+
+ .libraries-list{
+  font-family: cursive;
+  font-weight: 300;
+ }
+
+ .target {
+  font-size: 14px;
+  transition: font-size 4s 1s;
+  transition: margin-right 4s, color 1s;
+ }
+
+ .target:hover {
+  font-size: 36px;
+ }
+
+ li:hover{
+  color:black;
+  font-size: 36px;
+  font-family: 'Arial Narrow Bold', sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+ }
+ 
+
+ /* Do not change any CSS below this line. */
+ h1 {
   color: blue;
   font-size: 30px;
-}
+ }
 
-ul {
+ ul {
   list-style-type: none;
-}
+ }
 
-ol {
+ ol {
   font-weight: bold;
-}
+ }
 
-li {
+ li {
   text-align: center;
   border: 1px solid red;
   border-radius: 10px;
   color: blue;
   background-color: lightpink;
   padding-left: 30px;
-}
+ }
 
-img {
+ img {
   width: auto;
   height: 200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
+ }
 
-body {
+ body {
   font-family: sans-serif;
-}
+ }
 
-h3 {
+ h3 {
   text-decoration-line: underline;
-}
+ }
 
-html {
+ html {
   background-color: rgb(159, 193, 201);
   background: radial-gradient(
     circle,
@@ -47,14 +114,13 @@ html {
     rgba(224, 209, 221, 1) 52%,
     rgba(0, 212, 255, 1) 100%
   );
-}
+ }
 
-p {
+ p {
   padding-top: 20px;
   padding-bottom: 20px;
-}
+ }
 
-h2,
-h3 {
+ h2, h3 {
   font-size: 20px;
-}
+ }

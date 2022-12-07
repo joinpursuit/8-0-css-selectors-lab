@@ -43,6 +43,11 @@
   text-align: center;
  }
 
+ .libraries-list{
+  font-family: cursive;
+  font-weight: 300;
+ }
+
  .target {
   font-size: 14px;
   transition: font-size 4s 1s;

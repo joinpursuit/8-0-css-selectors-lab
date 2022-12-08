@@ -1,10 +1,10 @@
 /* Write your CSS below. */
 
 /* Do not change any CSS below this line. */
-p 
-{
+p {
   font-family: Helvetica, sans-serif;
 }
+
 h1,
 h2,
 h3,
@@ -15,10 +15,12 @@ h6 {
   text-decoration: bold;
   text-decoration: underline blue;
 }
+
 h1 {
   color: blue;
   font-size: 30px;
 }
+
 body {
   text-align: center;
   width: 600 px;
@@ -41,52 +43,36 @@ li {
   padding-left: 30px;
 }
 
- img {
-  width: auto;
-  height: 200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid blue;
-}
 a {
-  color: red
-}
-body {
-  font-family: sans-serif;
-}
-
-h3 {
-  text-decoration-line: underline;
+  color: red;
 }
 
 html {
   background-color: rgb(159, 193, 201);
-  background: radial-gradient(
-    circle,
-    rgba(159, 193, 201, 1) 9%,
-    rgba(224, 209, 221, 1) 52%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: radial-gradient(circle,
+      rgba(159, 193, 201, 1) 9%,
+      rgba(224, 209, 221, 1) 52%,
+      rgba(0, 212, 255, 1) 100%);
 }
+
+img {
+  height: 200px;
+  border: 1px blue;
+}
+
+.profile-photo {
+  border: 1px solid blue;
+}
+
 h2.skills-header {
   color: rebeccapurple;
 }
 
-p {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-  .languages-list {
-      font-size: 35px;
-      list-style-image: url(./assets/globe.png);
-    
+.languages-list {
+  font-size: 35px;
+  list-style-image: url(./assets/globe.png);
 }
 
-h2,
-h3 {
-  font-size: 20px;
-}
 #intro-paragraph {
   text-shadow: 2px 2px red;
   font-size: 35px;

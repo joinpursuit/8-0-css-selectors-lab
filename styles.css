@@ -1,4 +1,30 @@
 /* Write your CSS below. */
+h1, h2, h3,
+h4, h5, h6 {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  text-decoration: underline solid rgb(0, 0, 255);
+}
+p {
+  font-family: Helvetica, sans-serif;
+}
+
+
+.profile-photo {
+  border: 1px solid blue;
+}
+
+.skills-header {
+  color: rebeccapurple;
+}
+
+.languages-list {
+  list-style-image: url(./assets/globe.png);
+}
+
+a {
+  color: red;
+}
 
 /* Do not change any CSS below this line. */
 h1 {
@@ -33,6 +59,7 @@ img {
 
 body {
   font-family: sans-serif;
+  text-align: center;
 }
 
 h3 {
@@ -52,9 +79,12 @@ html {
 p {
   padding-top: 20px;
   padding-bottom: 20px;
+  
 }
 
 h2,
 h3 {
   font-size: 20px;
 }
+
+

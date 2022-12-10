@@ -4,6 +4,7 @@
 h1 {
   color: blue;
   font-size: 30px;
+  font-family: Georgia, serif;
 }
 
 ul {
@@ -33,10 +34,12 @@ img {
 
 body {
   font-family: sans-serif;
+  text-align: center; /*this centers the body of the text*/
 }
 
 h3 {
   text-decoration-line: underline;
+  
 }
 
 html {
@@ -49,12 +52,42 @@ html {
   );
 }
 
-p {
+p /*this is the css selector that adds effect to the paragraph*/{
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: Helvetica, sans-serif; /*Sets all paragraph text to
+   have a font of `Helvetica, sans-serif`.*/
 }
 
 h2,
 h3 {
   font-size: 20px;
 }
+
+h1, h2, h3, h4, h5, h6 /*these are selectors for ALL headings*/ {
+  font-family: Georgia, serif;/*Set all headings to have a font of `Georgia, serif`*/
+  font-weight: bold; /* set the style of all headings so that they are bold*/
+  text-decoration: underline blue; /*this sets a blue underline for each heading*/
+}
+
+img.profile-photo /*.profile-photo  selector, a rule that applies to a 
+specific class, you can prefix the class name with the . symbol. */ {
+  border-style: solid;
+  border-width: 1px;
+  border-color: blue; /* this places a solid blue line around the photo*/
+}
+
+h2.skills-header /*.skills-header which is a specific style the color rebeccapurple */ {
+  color: rebeccapurple;
+}
+
+a /*this is a html tag that defines a hyperlink!*/{
+  color: red;/*Change all links on the page so that they show up `red`*/
+}
+
+ul.languages-list {
+  list-style-image: url('"./assets/globe.png"')
+} /*The unordered list underneath the
+ "Languages" heading should include a class of `languages-list`
+ Then, style all lists that have that class to have a `list-style-image` property with the value being the 
+ [globe](./assets/globe.png) image stored in the `assets/` folder.*/

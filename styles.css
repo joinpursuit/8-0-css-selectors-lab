@@ -2,8 +2,11 @@
 
 /* Do not change any CSS below this line. */
 h1 {
+  font-family: Georgia, serif;
   color: blue;
   font-size: 30px;
+  font-weight: 700;
+  text-decoration: underline blue;
 }
 
 ul {
@@ -33,6 +36,7 @@ img {
 
 body {
   font-family: sans-serif;
+  text-align: center;
 }
 
 h3 {
@@ -50,11 +54,31 @@ html {
 }
 
 p {
+  font-family: Helvetica, sans-serif;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 h2,
 h3 {
+  font-family: Georgia, serif;
   font-size: 20px;
+  font-weight: 700;
+  text-decoration: underline blue;
+}
+
+.profile-photo{
+  border: 1px solid blue;
+}
+
+.skills-header{
+  color: rebeccapurple;
+}
+
+a{
+  color: red;
+}
+
+.languages-list{
+  list-style-image: url("/assets/globe.png");
 }

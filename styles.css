@@ -2,8 +2,6 @@
 
 /* Do not change any CSS below this line. */
 h1 {
-  
-  
   color: blue;
   font-size: 30px;
 }
@@ -63,9 +61,28 @@ p {
 }
 
 
+a {
+  color: red;
+}
+
+.languages-list {
+  list-style-image: url("assets/globe.png");
+}
+
 h1,
 h2,
-h3,h4,h5 {
+h3,
+h4,
+h5,
+h6 {
   font-family: Georgia, serif;
-  font-size: 20px;
+  
+  color: blue;
+  text-decoration: underline;
+}
+
+.skills-header {
+  font-weight: 700px;
+  color: rebeccapurple;
+  text-decoration: underline solid rgb(0,0,255);
 }

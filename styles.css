@@ -2,6 +2,8 @@
 
 /* Do not change any CSS below this line. */
 h1 {
+  
+  
   color: blue;
   font-size: 30px;
 }
@@ -32,7 +34,8 @@ img {
 }
 
 body {
-  font-family: sans-serif;
+  text-align: center;
+  /* font-family: sans-serif; */
 }
 
 h3 {
@@ -50,11 +53,19 @@ html {
 }
 
 p {
+  font-family: Helvetica, sans-serif;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
+.profile-photo {
+  border: 1px solid blue;
+}
+
+
+h1,
 h2,
-h3 {
+h3,h4,h5 {
+  font-family: Georgia, serif;
   font-size: 20px;
 }

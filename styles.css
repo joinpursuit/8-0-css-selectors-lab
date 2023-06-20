@@ -22,6 +22,9 @@ a{
 ul.languages-list{
   list-style-image: url("../assets/globe.png");
 }
+ol{
+  list-style-position: inside;
+}
 /* Do not change any CSS below this line. */
 h1 {
   color: blue;

@@ -25,7 +25,7 @@ In this lab, you'll have the opportunity to design a personal webpage. The conte
 To run the tests, you can run the following command from the command line. You will need to be in the root directory of your local directory.
 
 ```
-npm test
+npm testv
 ```
 
 This will open the Cypress testing window, where you can click to run an individual suite of tests or all of the tests at once.

@@ -1,4 +1,25 @@
 /* Write your CSS below. */
+div p {
+  font-family: Helvetica, sans-serif;
+}
+h1 {
+  font-family: Georgia, serif;
+}
+.important {
+  font-weight: bold;
+  text-decoration: underline blue; 
+}
+img.profile-photo {
+  border: blue;
+  border-width: 1px;
+}
+body {
+  text-align: center;
+}
+#skills-header {
+  color: rebeccapurple;
+}
+
 
 /* Do not change any CSS below this line. */
 h1 {
